@@ -1,0 +1,582 @@
+body{
+  margin: 0;
+  max-width: 100%;
+}
+.helloast{
+  margin: 0;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 30px;
+  top: 305px;
+}
+.firstview{
+  margin: 0;
+  height: 570px;
+  background-color: #0a0b0d;
+
+}
+.f1{
+  /* font-size: 1em=16px */
+  font-size: 9rem;
+  margin: 0;
+  position: absolute;
+  left:1150px;
+  top: 70px;
+  font-family: 'Fredoka One', cursive;
+  color: white;
+
+}
+.f1:hover{
+  color: #23CE6B;
+}
+.f2{
+  margin: 0;
+  font-size: 9rem;
+  position: absolute;
+  left:830px;
+  top: 220px;
+  font-family: 'Fredoka One', cursive;
+  color: white;
+}
+.f2:hover{
+  color: #23CE6B;
+}
+.f3{
+  margin: 0;
+  position: absolute;
+  font-size: 9rem;
+  left: 380px;
+  top: 390px;
+  font-family: 'Fredoka One', cursive;
+  color: #c12237;
+}
+.f3:hover{
+  color: #95081a;
+}
+.greenbar{
+  margin: 0;
+  position: absolute;
+  background-color: #F5E0B7;
+  height: 4rem;
+  width: 100%;
+  top: 35rem;
+}
+.page1{
+  margin: 0;
+  position: absolute;
+  background-color:#0c0d0e;
+  height: 48rem;
+  width: 100%;
+  top: 35rem;
+}
+.prpic{
+  margin: 0;
+  position: absolute;
+  left: 5rem;
+  border: solid;
+  border-color: white;
+  border-radius: 121px;
+  border-width: 8px;
+  top: 3rem;
+  height: 14rem;
+  width: 14rem;
+}
+.mydefine{
+  margin: 0;
+  position: absolute;
+  left: 21rem;
+  top: 1.7rem;
+}
+.mydf1{
+  margin: 10px;
+  position: absolute;
+  top: 20px;
+  font-size: 3.7rem;
+  font-family: 'Black Ops One', cursive;
+  color: #eec552;
+}
+.mydf2{
+  margin: 10px;
+  position: absolute;
+  top: 90px;
+  font-size: 3.7rem;
+  font-family: 'Black Ops One', cursive;
+  color: #ebe8e8;
+
+}
+.mydf3{
+  margin: 10px;
+  position: absolute;
+  top: 170px;
+  font-size: 3.7rem;
+  font-family: 'Black Ops One', cursive;
+  color: #52eee0;
+}
+.aboutme{
+  margin: 0;
+  position: absolute;
+  background-color: #FFF94F;
+  height: 21rem;
+  width: 50%;
+  border: solid;
+  border-radius: 10px;
+  border-color: #FFF94F;
+  top: 25rem;
+  left: 35rem;
+}
+.abtmetxt{
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 1rem;
+  font-family: 'Press Start 2P', cursive;
+}
+.abtmettl{
+
+  margin: 0;
+  position: absolute;
+  top: 20.8rem;
+  left: 39rem;
+  font-size: 3rem;
+  font-family: 'Chango', cursive;
+  color: #ffff4c;
+}
+}
+.sattelite{
+  margin: 0;
+  height: 12rem;
+  width: 12rem;
+  position: absolute;
+}
+
+.gotcha{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 58rem;
+  top: 9.5rem;
+}
+.secpage{
+  margin: 0;
+  background-color: #0a0b0d;
+  height: 73rem;
+  position: absolute;
+  top: 83rem;
+  width: 100%;
+}
+.rocket{
+  margin: 0;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 30rem;
+  left: 7rem;
+  display: none;
+
+}
+.rocket2{
+  margin: 0;
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 7rem;
+  bottom: 57.5rem;
+}
+.goalsprogress{
+  margin: 0;
+  height: 25rem;
+  width: 36rem;
+  top: 40rem;
+  left: 45rem;
+  position: absolute;
+  border: solid;
+  border-radius: 10px;
+  border-color: #a41c34;
+  background-color: #a41c34;
+}
+.goalsdate{
+  margin: 0;
+  left: 5rem;
+  top: 8rem;
+  height: 30rem;
+  width: 75rem;
+  position: absolute;
+
+  border: solid;
+  border-radius: 10px;
+  border-color: #4cbc5c;
+  background-color: #4cbc5c;
+}
+.goaldatetitl{
+  margin: 0;
+  position: absolute;
+  left: 13rem;
+  font-family: 'Chango', cursive;
+  font-size: 3rem;
+  bottom: 0.1rem;
+}
+.goalsprogresstitl{
+  margin: 0;
+  position: absolute;
+  left: 1rem;
+  bottom: 0.1rem;
+}
+.goalsprogressbar{
+  margin: 0;
+  border: solid;
+  border-color:white;
+  background-color: white;
+  border-top-right-radius: 10px;
+  top: 40rem;
+  left: 45rem;
+  width: 36rem;
+  height: 3.5rem;
+  border-top-left-radius: 10px;
+  position: absolute;
+}
+.goaldatebar{
+  margin: 0;
+  border: solid;
+  border-color: #2d903b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 75rem;
+  position: absolute;
+  left: 5rem;
+  top: 8rem;
+  background-color: #2d903b;
+  height: 4rem;
+}
+/* now we will fill all the value of the boxes */
+.gl1{
+  position: absolute;
+    margin: 0;
+    top: 6rem;
+    font-size: 2.5rem;
+    background-color: #D33F49;
+    border: solid;
+    color: white;
+    border-color: #D33F49;
+    font-family: 'Press Start 2P', cursive;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 200px;
+    padding-right: 230px;
+    left: 90px;
+}
+.gldt1{
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-left:10px;
+  font-size: 2.2rem;
+  background-color: #FFBC42;
+  border: solid;
+  border-color: #FFBC42;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.gl2{
+  position: absolute;
+  margin: 0;
+  color: white;
+  top: 12rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  background-color: #D33F49;
+  border: solid;
+  border-color: #D33F49;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 200px;
+  padding-right: 275px;
+  left: 90px;
+}
+.gldt2{
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-left:10px;
+  font-size: 2.2rem;
+  background-color: #FFBC42;
+  border: solid;
+  border-color: #FFBC42;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.gl3{
+  padding-left: 150px;
+  padding-right: 168px;
+  left: 90px;
+  position: absolute;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  top: 18rem;
+  font-size: 2.5rem;
+  background-color: #D33F49;
+  color: white;
+  border: solid;
+  border-color: #D33F49;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.gldt3{
+  padding-left: 22px;
+  padding-right: 22px;
+  position: absolute;
+  left: 5rem;
+  margin-left:10px;
+  font-size: 2.2rem;
+  background-color: #FFBC42;
+  border: solid;
+  border-color: #FFBC42;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.gl4{
+  position: absolute;
+  margin: 0;
+  padding-right: 40px;
+  font-family: 'Press Start 2P', cursive;
+  top: 24rem;
+  font-size: 2.5rem;
+  background-color: #D33F49;
+  color: white;
+  border: solid;
+  border-color: #D33F49;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 80px;
+  left: 90px;
+}
+.gldt1{
+  position: absolute;
+  margin: 0;
+  background-color: #d7525b;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: white;
+  border: solid;
+  border-color:#d7525b;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 96px;
+  left: 650px;
+  padding-left: 70px;
+  padding-right: 110px;
+}
+.gldt2{
+  position: absolute;
+  margin: 0;
+  background-color: #d7525b;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: white;
+  border: solid;
+  border-color:#d7525b;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 192px;
+  left: 650px;
+  border-left-width: 50px;
+  padding-right: 120px;
+}
+.gldt3{
+  position: absolute;
+  margin: 0;
+  background-color: #d7525b;
+  border: solid;
+  border-color:#d7525b;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 288px;
+  left: 650px;
+  padding-right: 5px;
+  padding-left: 25px;
+}
+.gldt4{
+  position: absolute;
+  margin: 0;
+  background-color: #d7525b;
+  border: solid;
+  border-color:#d7525b;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 384px;
+  left: 650px;
+  border-left-width: 70px;
+  padding-right: 120px;
+}
+.skillbar1{
+  background-color: #d3e7eb;
+  position: absolute;
+  border: solid;
+  border-color: #d3e7eb;
+  border-radius: 30px;
+  top: 2100px;
+  width: 1120px;
+  height: 48px;
+  left: 120px;
+}
+.skillbar2{
+  background-color: #d3e7eb;
+  width: 70rem;
+  height: 3rem;
+  position: absolute;
+  border: solid;
+  border-color: #d3e7eb;
+  border-radius: 30px;
+  top: 2300px;
+left: 120px;
+}
+.skillbar3{
+
+  background-color: #d3e7eb;
+  width: 70rem;
+  height: 3rem;
+  position: absolute;
+  border: solid;
+  border-color: #d3e7eb;
+  border-radius: 30px;
+  top: 2200px;
+  left: 120px;
+}
+.skillbar4{
+  background-color: #d3e7eb;
+  width: 70rem;
+  height: 3rem;
+  position: absolute;
+  border: solid;
+  border-color: #d3e7eb;
+  border-radius: 30px;
+  top: 2400px;
+  left: 120px;
+}
+
+.sb1{
+  background-color: #04A777;
+  position: absolute;
+  border: solid;
+  border-color: #04A777;
+  border-radius: 30px;
+  width: 550px;
+  height: 48px;
+  bottom: auto;
+    top: -3px;
+    right: 0px;
+    left: -3px;
+}
+
+.sb3{
+  background-color: #3772FF;
+  position: absolute;
+  border: solid;
+  border-color: #3772FF;
+  border-radius: 30px;
+  width: 450px;
+  height: 48px;
+  bottom: auto;
+    top: -3px;
+    right: 0px;
+    left: -3px;
+}
+
+.sb2{
+  background-color: #FF8427;
+  position: absolute;
+  border: solid;
+  border-color: #FF8427;
+  border-radius: 30px;
+  width: 70px;
+  height: 48px;
+  bottom: auto;
+    top: -3px;
+    right: 0px;
+    left: -3px;
+}
+
+.sb4{
+  background-color: #FF5964;
+  position: absolute;
+  border: solid;
+  border-color: #FF5964;
+  border-radius: 30px;
+  width: 600px;
+  height: 48px;
+  bottom: auto;
+    top: -3px;
+    right: 0px;
+    left: -3px;
+}
+.sb1t{
+  font-family: 'Press Start 2P', cursive;
+      display: inline;
+      margin: 0;
+      position: absolute;
+      left: 300px;
+    top: 10px;
+}
+.sb2t{
+  font-family: 'Press Start 2P', cursive;
+      display: inline;
+      margin: 0;
+      position: absolute;
+      left: 250px;
+    top: 10px;
+}
+.sb3t{
+  font-family: 'Press Start 2P', cursive;
+      display: inline;
+      margin: 0;
+      position: absolute;
+      left: 300px;
+    top: 10px;
+}
+.sb4t{
+  font-family: 'Press Start 2P', cursive;
+      display: inline;
+      margin: 0;
+      position: absolute;
+      left: 170px;
+    top: 10px;
+  }
+.skilltxt{
+  margin: 0;
+      background-color: #FAC05E;
+      font-size: 3rem;
+      border-radius: 15px;
+      position: absolute;
+      border-color: #FAC05E;
+      border: solid;
+      top: 1980px;
+    left: 410px;
+    color: #BB0A21;
+    padding-left: 40px;
+    font-family: 'Chango', cursive;
+}
+.fborderbox{
+  margin: 0;
+  position: absolute;
+  background-color: #1d1e1e;
+  height: 30px;
+  width: 100%;
+}
+.planet{
+  margin: 0;
+  height: 200px;
+    display: inline;
+    position: absolute;
+    width: 200px;
+    left: 901px;
+}
