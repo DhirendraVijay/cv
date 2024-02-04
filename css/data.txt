@@ -1,4 +1,0 @@
-blue #2a428c
-dark blue #1c2e7a
-light purple #816ae2
-purple #6550dd
